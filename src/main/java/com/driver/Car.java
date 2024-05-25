@@ -29,6 +29,34 @@ public class Car extends Vehicle {
         this.isManual=isManual;
     }
 
+    public int getWheels(){
+        return wheels;
+    }
+
+    public int getDoors(){
+        return doors;
+    }
+
+    public int getGears(){
+        return gears;
+    }
+
+    public boolean isManual(){
+        return isManual;
+    }
+
+    public String getType(){
+        return type;
+    }
+
+    public int getSeats(){
+        return seats;
+    }
+
+    public int getCurrentGear(){
+        return currentGear;
+    }
+
 
     public void changeGear(int newGear){
         this.currentGear = newGear;
