@@ -29,6 +29,15 @@ public class Car extends Vehicle {
         this.isManual=isManual;
     }
 
+    public Car(String name, int doors, int gears, int wheels, boolean b, String type) {
+        super(name);
+        this.wheels= this.wheels;
+        this.doors= this.doors;
+        this.gears= this.gears;
+        this.isManual=this.isManual;
+        this.type= this.type;
+    }
+
     public int getWheels(){
         return wheels;
     }
